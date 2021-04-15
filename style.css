@@ -66,4 +66,5 @@
   color: var(--color-text);
   font-family: var(--font);
   font-size: 30px;
+  font-weight: bold;
 }
