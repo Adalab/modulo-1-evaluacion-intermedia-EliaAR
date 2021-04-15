@@ -17,6 +17,14 @@
   align-items: center;
   justify-content: center;
 }
+@media (min-width: 768px) {
+  .header-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 .header-logo {
   width: 155px;
   margin-top: 10px;
@@ -45,6 +53,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+@media (min-width: 768px) {
+  .main-container {
+    padding-left: 50vw;
+    padding-right: 50vw;
+    font-size: 40px;
+  }
 }
 .main-title {
   text-align: center;
