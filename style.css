@@ -1,0 +1,54 @@
+:root {
+  --font: "Rubik", sans-serif;
+  --color-menu: #4a4a4a;
+  --color-background: #3cdbc0;
+  --color-text: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header-container {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header-logo {
+  width: 155px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.header-LinkBlog {
+  padding-right: 20px;
+  padding-bottom: 13px;
+  text-decoration: none;
+  font-family: var(--font);
+  color: var(--color-menu);
+  font-size: 16px;
+}
+.header-LinkContacto {
+  text-decoration: none;
+  font-family: var(--font);
+  color: var(--color-menu);
+  font-size: 16px;
+}
+.main-container {
+  height: 80vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: var(--color-background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-title {
+  text-align: center;
+  color: var(--color-text);
+  font-family: var(--font);
+  font-size: 30px;
+}
